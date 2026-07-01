@@ -65,7 +65,7 @@ class Program
         Console.WriteLine("Adding 10 to " + num1 + " equals " + addition1 + ", and adding 10 to " + num2 + " equals " + addition2 + "."); //Displays the addition performed
         Console.WriteLine("Subtracting 2 from " + num1 + " equals " + subtraction1 + ", and subtracting 2 from " + num2 + " equals " + subtraction2 + "."); //Displays the subtraction performed
         Console.WriteLine("Multiplying " + num1 + " by 3 equals " + multiplication1 + ", and multiplying " + num2 + " by 3 equals " + multiplication2 + "."); //Displays the multiplication performed
-        Console.WriteLine("Dividing " + num1 + " by 2 equals " + division1 + ", and dividing " + num2 + " by 2 equals " + division2 + "."); //Displays the division performed
+        Console.WriteLine("Dividing " + num1 + " by 2 equals " + division1 + ", and dividing " + num2 + " by 2 equals " + division2 + "."); //Displays the division performed (not including remainder)
         Console.WriteLine("Dividing " + num1 + " by 2 leaves a remainder of " + modulus1 + ", and dividing " + num2 + " by 2 leaves a remainder of " + modulus2 + "."); //Displays the remainder left after performing division
 
         //Step 8: Floating Point Precision//
