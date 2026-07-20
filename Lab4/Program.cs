@@ -58,10 +58,10 @@ class Program
         myCar.Drive(50); // Problem 2 continued; Calls the Drive method and assigns the integer variable miles a value of 50
         
         string description = myCar.GetDescription(); // Problem 3 continued; Stores the output of the GetDescription method as the string variable description
-        Console.WriteLine(description);
+        Console.WriteLine(description); // Problem 3 continued; Prints the output of the GetDescription method as the string variable description
         
-        myCar.Repaint("red"); // Problem 4 continued; Calls the Repaint method and assigns the string newColor to red
-        Console.WriteLine("The new color of the car is " + myCar.color + "."); // Problem 4 continued; Confirms the color of the car is updated
+        myCar.Repaint("red"); // Problem 4 continued; Calls the Repaint method and assigns the string variable newColor to red
+        Console.WriteLine("The new color of the car is " + myCar.color + "."); // Problem 4 continued; Confirms the color of the car is updated to red
     }
 }
 
